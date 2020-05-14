@@ -193,6 +193,13 @@ h2 {
   color: #99001d;
 }
 
+.sis_smu {
+	height: auto;
+	width: 33%;
+	padding: 8px;
+	float: right;
+}
+
 @media only screen and (min-width: 800px) {
 	.page_wrapper {  width: 800px;  }
 	.topnav {
@@ -206,6 +213,12 @@ h2 {
 		margin-top: 0px;
 	    margin-right: 10px;
 	}
+    .sis_smu {
+    	/*height: 250px;
+     	width: auto; */
+    	padding:15px;
+    	float: right;
+    }
 }
 
 /* credit: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
