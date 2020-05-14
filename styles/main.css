@@ -1,0 +1,189 @@
+:target:before {
+content:"";
+display:block;
+height:65px; /* fixed header height*/
+margin:-65px 0 0; /* negative fixed header height */
+} /* credit: https://stackoverflow.com/questions/4086107/fixed-page-header-overlaps-in-page-anchors */
+
+body {
+  font-family: arial;
+  font-size: 12pt;
+  color: #363333;
+  background-color: #faf5f5;
+}
+
+p {
+  margin-top: 0px;
+  line-height: 130%;
+}
+
+img {
+    border-style: none;
+}
+
+/* credit: page/wrapper dimensions adapted from: https://cseweb.ucsd.edu/~npolikarpova/ */
+/* ...they're pretty good dimensions. */
+
+.page_wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;  
+}
+
+.page {
+  background-color: #ffffff;
+  margin-top: 65px;
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;    
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+a:link {
+  color:  #99001d;
+  text-decoration:none;
+}
+
+a:visited {
+  color:  #99001d;
+}
+
+.breadcrumbs a {
+	font-style: italic;
+}
+
+td {
+    padding-left: 15px;
+    padding-right: 15px;
+	vertical-align: text-top;
+}
+
+.teaching td {
+	padding-bottom: 10px;
+}
+
+.rating {
+	color: #18B738;
+}
+
+.papers_indent {
+	margin-left: 12px;
+}
+
+.papers_indent a {
+	margin-top: -400px;
+}
+
+.nolinkpaper {
+	font-style: italic;
+	color: #808080;
+}
+
+.pubnote{
+	color:#18B738;
+}
+
+.paper a:link {
+	font-style: italic;
+}
+
+.paper a:active {
+	font-style: italic;
+}
+
+.paper a:visited {
+	font-style: italic;
+}
+
+.paper a:hover {
+	font-style: italic;
+}
+
+/* credit: nav bar adapted from https://www.w3schools.com/howto/howto_js_topnav.asp */
+
+.topnav {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  overflow: hidden;
+  background-color: #333;
+  width: 800px;
+  height: 44px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #767373;
+  color: #fff;
+}
+
+.topnav a.active {
+  background-color: #99001d;
+  color: white;
+}
+
+.topnav_wrapper {
+    background-color: #faf5f5;
+    position: fixed;
+    top:0;
+    left:0;
+	width: 100%;
+}
+
+.contact_wrapper {
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+.contact {
+  margin-left: 10px;
+  text-align: left;
+  float: left;
+}
+
+.mugshot {
+    float: right;  
+}
+
+.mugshot img {
+   display: block;
+   margin-left: auto;
+   margin-right: 10px;
+   height: 200px;
+}
+
+/* credit: h1/h2 styling adapted from: https://cseweb.ucsd.edu/~npolikarpova/ */ 
+
+h1 {
+  font-family: georgia;
+  font-size: 28pt;
+  font-weight: 200;  
+  color: #99001d;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: georgia;
+  font-size: 20pt;
+  font-weight: 200;  
+  color: #99001d;
+}
