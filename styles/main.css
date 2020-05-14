@@ -85,7 +85,7 @@ td {
 }
 
 .nolinkpaper {
-	font-style: italic;
+	/*font-style: italic;*/
 	color: #808080;
 }
 
@@ -93,7 +93,7 @@ td {
 	color:#18B738;
 }
 
-.paper a:link {
+/*.paper a:link {
 	font-style: italic;
 }
 
@@ -107,7 +107,7 @@ td {
 
 .paper a:hover {
 	font-style: italic;
-}
+}*/
 
 /* credit: nav bar adapted from https://www.w3schools.com/howto/howto_js_topnav.asp */
 
