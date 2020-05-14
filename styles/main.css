@@ -193,6 +193,13 @@ h2 {
   color: #99001d;
 }
 
+.swat {
+	height: auto;
+	max-width: 40%;
+	padding: 8px;
+	float: right;
+}
+
 .sis_smu {
 	height: auto;
 	width: 33%;
