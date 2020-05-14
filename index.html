@@ -3,17 +3,21 @@
    <head>
       <title>Chris Poskitt</title>
       <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-      <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styles/test.css"/>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
    <body>
       <div class="topnav_wrapper">
-         <div class="topnav">
+         <div class="topnav" id="myTopnav">
             <a class="active" href="./">Home</a>
             <a href="research.html">Research</a>
             <a href="teaching.html">Teaching</a>
             <a href="activities.html">Activities</a>
             <a href="personal.html">Personal</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			    <i class="fa fa-bars"></i>
+			  </a>
          </div>
       </div>
       <div class="page_wrapper">
@@ -63,11 +67,11 @@
             <h2>Current Teaching</h2>
             <table class="teaching">
                <tr>
-                  <td><strong>2020-21 Term 1</strong></td>
+                  <td><strong>2020-21 Term&nbsp;1</strong></td>
                   <td>IS216: Web Application Development 2</td>
                </tr>
                <tr>
-                  <td><strong>2019-20 Term 2</strong></td>
+                  <td><strong>2019-20 Term&nbsp;2</strong></td>
                   <td>IS213: Enterprise Solution Development<br />IS113: Web Application Development 1</td>
                </tr>
             </table>
@@ -97,5 +101,15 @@
             <p>For my other activities, see <a href="activities.html">here</a>.</p>
          </div>
       </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
    </body>
 </html>
