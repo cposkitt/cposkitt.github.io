@@ -21,8 +21,10 @@ img {
     border-style: none;
 }
 
-/* credit: page/wrapper dimensions adapted from: https://cseweb.ucsd.edu/~npolikarpova/ */
-/* ...they're pretty good dimensions. */
+.youtube {
+	height: 1em;
+	cursor: pointer;
+}
 
 .page_wrapper {
   margin-left: auto;
@@ -92,22 +94,6 @@ td {
 .pubnote{
 	color:#18B738;
 }
-
-/*.paper a:link {
-	font-style: italic;
-}
-
-.paper a:active {
-	font-style: italic;
-}
-
-.paper a:visited {
-	font-style: italic;
-}
-
-.paper a:hover {
-	font-style: italic;
-}*/
 
 /* credit: nav bar adapted from https://www.w3schools.com/howto/howto_js_topnav.asp */
 
