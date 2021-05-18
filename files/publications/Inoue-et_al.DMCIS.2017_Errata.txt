@@ -1,0 +1,28 @@
+
+====================================================================================
+"Anomaly Detection for a Water Treatment System Using Unsupervised Machine Learning"
+Inoue et. al, DMCIS 2017
+====================================================================================
+
+ERRATA (Updated 15th May 2021)
+
+The dataset we used for training contained a small number of typos: 37 out of 449919
+entries had their label misspelled as "A ttack" with a spurious space. All other la-
+els were spelled correctly.
+
+Unfortunately, our Python scripts interpreted these misspelled labels as "Normal" or
+"Neither Normal nor Attack", depending on the line of code. This makes a small diff-
+erence in the overall performance of the models. In particular, for 1-class SVM, our
+paper presents the following performance:
+
+      precision: 0.9249920360704746
+      recall:    0.6990111477352691
+      F-score:   0.7962789127843817
+	  
+whereas the current dataset on the iTrust website gives the following (with credit
+to Sophia White, Kings College London):
+
+      precision: 0.9836
+      recall:    0.6737
+      F-score:   0.7997
+
