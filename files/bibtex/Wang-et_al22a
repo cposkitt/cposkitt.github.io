@@ -1,0 +1,7 @@
+@article{Wang-et_al22a,
+  author    = {Kun Wang and Jingyi Wang and Christopher M. Poskitt and Xiangxiang Chen and Jun Sun and Peng Cheng},
+  title     = {{K-ST}: A Formal Executable Semantics of {PLC} Structured Text Language},
+  journal   = {CoRR},
+  volume    = {abs/2202.04076},
+  year      = {2022}
+}
